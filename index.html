@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Helados Moon</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;0,400;0,500;0,700;1,300&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <header>
+        <div class="contenedor">
+            <nav class="menu">
+                <a href="#" id="btn-acerca">Acerca de</a>
+                <a href="#" id="btn-menu">Menu</a>
+                <a href="#" id="btn-galeria">Galeria</a>
+                <a href="#" id="btn-ubicacion">Ubicacion</a>
+            </nav>
+
+            <div class="textos">
+                <h1 class="nombre">Heladería <span>Moon</span> </h1>
+                <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. </h3>
+            </div>
+        </div>
+    </header>
+
+    <section class="main"> <!--repitmos las clases por ej menu, acerca de para darles estilos diferentes segun dentro del contenedor en que esten-->
+        <section class="acerca-de" id="acerca-de">
+            <div class="contenedor">
+                    <div class="foto">
+                        <img src="img/acercade.jpg" alt="">
+                    </div>
+                    <article>
+                        <h3>Acerca de</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. At architecto, sint totam aut, commodi id recusandae qui esse quis adipisci alias inventore illum! Nemo fugiat recusandae commodi totam voluptates aperiam!</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos fugit eligendi, laborum sequi dolore, aperiam iste sunt error, deleniti delectus voluptatem. um.</p>
+                    </article>
+                </div>
+        </section>
+        
+
+            <section class="menu">
+                <div class="contenedor">
+                    <h3 class="titulo" id="platos">Menu</h3>
+                    <div class="contenedor-menu">
+                        <div class="contenedor-menu-2"> <!--dos contenedores porque el menu tiene dos margenes-->
+                        <article>
+                            <p class="categoria">Helados</p>
+                            <div class="plato">
+                                <p class="nombre">Lorem, ipsum dolor sit amet </p>
+                                <p class="precio">$20</p>
+                                <p class="descripcion">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            </div>
+
+                            <div class="plato">
+                                <p class="nombre"> architecto consequatur deserunt </p>
+                                <p class="precio">$25</p>
+                                <p class="descripcion"> Sed minus numquam ex, officiis quos tempore ipsam in voluptates! </p>
+                            </div>
+
+                            <div class="plato">
+                                <p class="nombre">Commodi voluptatibus doloremque  </p>
+                                <p class="precio">$14</p>
+                                <p class="descripcion">Sint molestias rem cupiditate nostrum quidem aspernatur inventore </p>
+                            </div>
+
+                            <div class="plato">
+                                <p class="nombre">quasi a, placeat earum </p>
+                                <p class="precio">$30</p>
+                                <p class="descripcion"> Earum accusamus eveniet amet nisi, ab nesciunt ipsam at culpa adipisci </p>
+                            </div>
+                        </article>
+
+                        <article>
+                            <p class="categoria">Postres</p>
+                            <div class="plato">
+                                <p class="nombre"> Asperiores dicta </p>
+                                <p class="precio">$14</p>
+                                <p class="descripcion"> Nam nesciunt provident et earum! Consectetur iusto harum dolore</p>
+                            </div>
+
+                            <div class="plato">
+                                <p class="nombre"> cupiditate possimus </p>
+                                <p class="precio">$16</p>
+                                <p class="descripcion">  Impedit quam odit atque nihil cum voluptatibus Lorem ipsum dolor sit amet.. </p>
+                            </div>
+
+                            <div class="plato">
+                                <p class="nombre">sapiente nihil</p>
+                                <p class="precio">$16.5</p>
+                                <p class="descripcion"> corporis ut! Assumenda temporibus accusantium in amet laborum doloremque</p>
+                            </div>
+
+                            <div class="plato">
+                                <p class="nombre">officia saepe recusandae </p>
+                                <p class="precio">$20</p>
+                                <p class="descripcion"> Fuga possimus debitis odio quos veniam distinctio error rem corporis</p>
+                            </div>
+                        </article>
+                        </div>
+                    </div>  
+
+                </div>
+            </section>
+
+            <section class="galeria" id="galeria">
+                <div class="foto">
+                    <img src="img/1.jpg" alt="">
+                </div>
+                <div class="foto">
+                    <img src="img/2.jpg" alt="">
+                </div>
+                <div class="foto">
+                    <img src="img/3.jpg" alt="">
+                </div>
+                <div class="foto">
+                    <img src="img/4.jpg" alt="">
+                </div>
+                <div class="foto">
+                    <img src="img/5.jpg" alt="">
+                </div>
+                <div class="foto">
+                    <img src="img/6.jpg" alt="">
+                </div>
+                <div class="foto">
+                    <img src="img/7.jpg" alt="">
+                </div>
+                <div class="foto">
+                    <img src="img/8.jpg" alt="">
+                </div>
+
+            </section>
+
+
+            <section class="ubicacion" id="ubicacion">
+                <div class="contenedor">
+                    <h3 class="titulo">Ubicación</h3>
+                    <div class="direccion">
+                        <p class="calle"> 1234 calle bonita <br /> flores, AV  5678</p> <br/>
+                        <p class="telefono">+57 000000</p>
+                        <p class="correo">correo [arroba] heladosmoon.com</p> <!--para que los bots no tomen el correo subido, es mejor escribirlo de esta manera-->
+                    </div>
+
+                    <div class="horarios">
+                        <h4>Horarios</h4>
+                        <p class="entreSemana">Lunes a Viernes <br /> 11:00 am - 8:00 pm</p>
+                        <p class="finSemana">Sabados y Festivos <br /> 12:00 am - 10:00 pm</p>
+                    </div>
+                </div>
+            </section>
+
+           <section class="mapa">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3965.9694121632388!2d-75.57103028585074!3d6.267753227823933!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e4428e0c9c8772f%3A0x10cce7ece69b2e2b!2sUniversidad%20de%20Antioquia!5e0!3m2!1ses-419!2sco!4v1668211226754!5m2!1ses-419!2sco" width="1600" height="550" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+           </section> 
+    </section>
+
+    <footer>
+        <div class="contenedor">
+            <div class="copyright">
+                <p>Copyright Heladería moon @ 2022</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/efectos.js"></script>
+    <script src="js/parallax.js"></script>
+</body>
+</html>
